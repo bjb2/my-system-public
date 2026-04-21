@@ -1,0 +1,71 @@
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Obsidian
+.obsidian/workspace.json
+.obsidian/workspace-mobile.json
+
+# Python
+__pycache__/
+*.pyc
+.env
+
+# Generated
+tags/
+publish-dashboard.md
+.org-viewer-index.json
+
+# Binaries — keep the current org-viewer, exclude old versioned copies
+*.exe
+!org-viewer.exe
+org-viewer-old*.exe
+org-viewer-prev*.exe
+org-viewer-old.exe
+
+# Machine-specific Claude settings
+.claude/settings.local.json
+
+# Logs
+setup/logs/
+
+# Node
+node_modules/
+
+# Config (contains API keys)
+scripts/.publish-config.json
+
+# Personal content — your tasks, knowledge, and inbox are yours, not the template
+# The template commits only scaffold/example files; your real content stays local.
+tasks/*.md
+!tasks/README.md
+!tasks/example-task.md
+tasks/completed/
+tasks/paused/
+knowledge/domains/
+knowledge/tools/
+knowledge/writing/
+inbox/captures/
+inbox/emails/
+inbox/tickets/
+inbox/ideas/
+inbox/decisions/
+inbox/investigations/
+queries/
+archive/
+projects/
+screenshots/
+
+# Secrets — injected at runtime, never stored
+.env.local
+.env.*.local
+load-secrets.ps1
+secrets.json
+*.key
+*.secret

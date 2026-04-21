@@ -1,0 +1,24 @@
+{
+  "defaultAgent": "claude",
+  "agents": {
+    "claude": {
+      "label": "Claude",
+      "launchCmd": "claude",
+      "printArgs": ["--print"],
+      "promptQuote": "single"
+    },
+    "gemini": {
+      "label": "Gemini",
+      "launchCmd": "gemini",
+      "printArgs": ["--prompt"],
+      "promptQuote": "double"
+    },
+    "codex": {
+      "label": "Codex",
+      "launchCmd": "codex",
+      "printArgs": ["-p"],
+      "promptQuote": "double",
+      "submitKey": "shift+enter"
+    }
+  }
+}

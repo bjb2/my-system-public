@@ -1,0 +1,10 @@
+﻿[
+    "inbox-age-report",
+    "completed-task-harvest",
+    "knowledge-gap-scan",
+    "inbox-triage",
+    "project-health",
+    "orphan-scan",
+    "frontmatter-lint",
+    "kb-link-density"
+]
