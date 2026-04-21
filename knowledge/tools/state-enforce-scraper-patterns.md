@@ -270,7 +270,7 @@ async with AsyncSession(impersonate="chrome120") as session:
 
 ## Related Files
 
-- `enclave/state-enforce/src/state_enforce/scrapers/tx/tssb.py`
-- `enclave/state-enforce/src/state_enforce/scrapers/fl/ofr.py`
-- `enclave/state-enforce/src/state_enforce/scrapers/ny/dfs.py`
-- `enclave/state-enforce/src/state_enforce/scrapers/ny/oag.py`
+- `src/scrapers/tx/tssb.py`
+- `src/scrapers/fl/ofr.py`
+- `src/scrapers/ny/dfs.py`
+- `src/scrapers/ny/oag.py`

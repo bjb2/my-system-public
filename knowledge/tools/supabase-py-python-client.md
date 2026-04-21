@@ -9,7 +9,7 @@ tags: [#python, #supabase, #postgres, #gotcha]
 
 Use `supabase-py` instead of psycopg/SQLAlchemy when connecting to Supabase from Python scripts or FastAPI. It talks over HTTP (PostgREST) like the JS client — no connection pooling issues, no SSL negotiation, no prepared-statement conflicts.
 
-**Wired in**: `enclave/state-enforce/`
+**Use case**: Python scripts or FastAPI connecting to a Supabase project
 
 ## Install
 

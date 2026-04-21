@@ -38,7 +38,7 @@ Background `&` in bash on Windows doesn't persist after the shell exits. Use Pow
 
 ```powershell
 Start-Process python -ArgumentList "-m", "uvicorn", "state_enforce.api.main:app", "--port", "8001" `
-  -WorkingDirectory "C:\Users\bryan\enclave\state-enforce" `
+  -WorkingDirectory "C:\path\to\your-project" `
   -RedirectStandardError "uvicorn-err.txt"
 ```
 

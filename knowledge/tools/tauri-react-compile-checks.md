@@ -13,19 +13,19 @@ Run these two checks after every change before reporting done. No exceptions.
 
 ```bash
 # TypeScript — catches type errors, missing imports, bad refs (~5s)
-cd C:/Users/bryan/enclave/org-viewer-dev
+cd <path-to-org-viewer-dev>
 npx tsc --noEmit
 
 # Rust — catches compile errors without a full build (~15s)
-cd C:/Users/bryan/enclave/org-viewer-dev/src-tauri
+cd <path-to-org-viewer-dev>/src-tauri
 cargo check
 ```
 
 ## Starting the dev server (logic or UI changes)
 
 ```powershell
-$env:ORG_ROOT = "C:\Users\bryan\enclave\my-org"
-cd C:\Users\bryan\enclave\org-viewer-dev
+$env:ORG_ROOT = "<path-to-org-root>"
+cd <path-to-org-viewer-dev>
 npm run tauri dev
 ```
 

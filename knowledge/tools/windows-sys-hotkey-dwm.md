@@ -68,7 +68,7 @@ For a Spotlight-style launcher that raises an existing window instead of launchi
         else
             WinActivate
     } else {
-        Run, C:\Users\bryan\enclave\sift\target\release\sift.exe
+        Run, C:\path\to\your-app.exe
     }
 return
 ```

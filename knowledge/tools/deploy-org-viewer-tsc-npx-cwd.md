@@ -14,9 +14,9 @@ tags: [org-viewer, devops, gotcha]
 **Workaround**: run tsc manually from the dev root first, then deploy with `-SkipQA`:
 
 ```powershell
-cd C:/Users/bryan/enclave/org-viewer-dev
+cd <path-to-org-viewer-dev>
 npx tsc --noEmit              # verify clean
-cd C:/Users/bryan/enclave/my-org
+cd <path-to-org-root>
 .\setup\scripts\deploy-org-viewer.ps1 -SkipQA
 ```
 

@@ -7,7 +7,7 @@ tags: [#python, #sqlalchemy, #alembic, #postgres, #gotcha]
 
 # SQLAlchemy 2.0 + Alembic + Postgres Upsert Pattern
 
-Wired in `enclave/state-enforce/`. Full stack: SQLAlchemy 2.0 ORM → psycopg3 → Postgres. Alembic for migrations.
+Wired in a FastAPI + Postgres project. Full stack: SQLAlchemy 2.0 ORM → psycopg3 → Postgres. Alembic for migrations.
 
 ## DB module layout
 

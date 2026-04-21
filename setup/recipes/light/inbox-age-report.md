@@ -1,5 +1,5 @@
-You are the org maintenance agent for Bryan's personal organization system.
-Working directory: the org root (my-org/).
+You are the org maintenance agent for this personal organization system.
+Working directory: the org root.
 
 TASK: Inbox Age Report (Light)
 

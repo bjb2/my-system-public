@@ -45,11 +45,9 @@ const svg = rawSvg
 
 **Order matters**: fix inner overrides before changing the outer default fill, or your string matches will be wrong.
 
-## outgoing.world Logo Files
+## Example Output Files
 
-- `C:\Users\bryan\Downloads\outgoing-logo-dark.png` — black text + blue mark
-- `C:\Users\bryan\Downloads\outgoing-logo-white-blue.png` — white text + blue mark (for purple bg)
-- Script: `C:\Users\bryan\Downloads\convert_logo.mjs`
+Save your output PNGs and the conversion script to a convenient location, e.g. `C:\Users\yourname\Downloads\`.
 
 ## Related
 

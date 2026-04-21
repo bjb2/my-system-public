@@ -10,7 +10,7 @@
     Register: see schtasks command at bottom of this file
 #>
 
-$ORG_DIR      = "$env:USERPROFILE\enclave\my-org"
+$ORG_DIR      = if ($env:ORG_ROOT) { $env:ORG_ROOT } else { Split-Path -Parent (Split-Path -Parent $PSScriptRoot) }
 $LOG_DIR      = "$ORG_DIR\setup\logs"
 $OBSERVER_DIR = "$ORG_DIR\setup\observer"
 $RECIPES_DIR  = "$ORG_DIR\setup\recipes"
@@ -201,7 +201,7 @@ Write-Log "=== Cycle complete: $actionsRun actions run ($($actionsToday + $actio
 
 Run once (as your user account, no elevation needed):
 
-schtasks /Create /TN "ClaudeOrg\ObserverAgent" /TR "powershell.exe -NonInteractive -ExecutionPolicy Bypass -File `"$env:USERPROFILE\enclave\my-org\setup\scripts\run-observer.ps1`"" /SC DAILY /ST 09:00 /F
+schtasks /Create /TN "ClaudeOrg\ObserverAgent" /TR "powershell.exe -NonInteractive -ExecutionPolicy Bypass -File `"$PSScriptRoot\run-observer.ps1`"" /SC DAILY /ST 09:00 /F
 
 To verify:   schtasks /Query /TN "ClaudeOrg\ObserverAgent" /V /FO LIST
 To run now:  schtasks /Run /TN "ClaudeOrg\ObserverAgent"

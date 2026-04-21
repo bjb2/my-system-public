@@ -26,7 +26,7 @@ The system improves itself over time with minimal prompting. Three mechanisms fe
 ┌──────────────────────────────────────────────────────────┐
 │                   APPROVAL LAYER                          │
 │                                                          │
-│   Bryan reviews in org-viewer → Approve ❯ button        │
+│   User reviews in org-viewer → Approve ❯ button         │
 │   Swarm spawns Claude agent with decision as context     │
 └──────────────────────────────────────────────────────────┘
                               ↓
@@ -85,11 +85,11 @@ PatternWhat to look forMissing externalizationState living in memory rather than
 3. Swarm agent implements the proposal
 4. Archive decision file to `archive/research/`
 
-Bryan reviews proposals in one batch (polling, not interrupts). One decision review session per week is enough.
+Review proposals in one batch (polling, not interrupts). One decision review session per week is enough.
 
 ## Key Design Decisions
 
-**Why proposals, not direct action**?The observer has read-only scope by design. Direct action from a scheduled agent risks building things Bryan doesn't want. The approval gesture is the control surface — low friction (one click) but present.
+**Why proposals, not direct action**?The observer has read-only scope by design. Direct action from a scheduled agent risks building things you don't want. The approval gesture is the control surface — low friction (one click) but present.
 
 **Why weekly observer + per-session hook**?The hook catches session-specific friction (highest signal while fresh). The observer provides a weekly big-picture view with more context than any single session provides.
 

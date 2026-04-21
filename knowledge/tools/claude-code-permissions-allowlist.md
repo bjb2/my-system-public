@@ -58,13 +58,13 @@ By default Claude Code (and spawned swarm agents) can only read/write within the
 {
   "permissions": {
     "additionalDirectories": [
-      "C:/Users/bryan/enclave"
+      "C:/Users/yourname/projects"
     ]
   }
 }
 ```
 
-This is the correct way to let agents roam across multiple repos under a shared parent (e.g. `enclave/*`). Without it, agents get permission-prompted for every file outside the cwd — or fail silently.
+This is the correct way to let agents roam across multiple repos under a shared parent (e.g. `projects/*`). Without it, agents get permission-prompted for every file outside the cwd — or fail silently.
 
 Put this in `.claude/settings.local.json` (gitignored) if the paths are machine-specific.
 

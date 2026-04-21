@@ -16,8 +16,8 @@ Hooks run as separate processes with no direct access to the Claude session's wo
 ```
 
 The `<EncodedPath>` is the project directory path with separators replaced by dashes:
-- Windows: `C:\Users\bryan\enclave\my-org` → `C--Users-bryan-enclave-my-org`
-- Unix/Mac: `/Users/bryan/enclave/my-org` → `Users-bryan-enclave-my-org`
+- Windows: `C:\Users\alice\my-org` → `C--Users-alice-my-org`
+- Unix/Mac: `/Users/alice/my-org` → `Users-alice-my-org`
 
 ## The Pattern
 

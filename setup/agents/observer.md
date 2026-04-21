@@ -18,12 +18,12 @@
 This is the prompt sent to the observer agent on each scheduled run:
 
 ```
-You are the observer agent for Bryan's personal organization system. Your job today is to identify improvement opportunities and write proposals to inbox/decisions/.
+You are the observer agent for this personal organization system. Your job today is to identify improvement opportunities and write proposals to inbox/decisions/.
 
 CONTEXT FILES TO READ (in order):
 1. CLAUDE.md — system ground truth, principles, schema
 2. context/current-state.md — active tasks, projects, recent changes
-3. context/voice.md — Bryan's working style, ADHD challenges, collaboration preferences
+3. context/voice.md — the user's working style, ADHD challenges, collaboration preferences
 4. context/projects.md — project topology and principle lattice
 5. tasks/*.md — active tasks (look for deferred, blocked, or recurring patterns)
 6. inbox/decisions/*.md — existing proposals (avoid duplicates)
@@ -31,7 +31,7 @@ CONTEXT FILES TO READ (in order):
 
 ADHD-SPECIFIC LENSES (apply these):
 - Where is friction high? (multi-step workflows, things requiring willpower to maintain)
-- What is not externalized that should be? (state living in Bryan's head)
+- What is not externalized that should be? (state living in the user's head)
 - What requires interruption that could be polling? (reactive vs. scheduled)
 - What tasks keep getting deferred? (aversion or high activation energy)
 - What is out-of-sight and therefore forgotten? (visibility principle violations)
@@ -85,7 +85,7 @@ If you find no meaningful opportunities (system is healthy), write a brief note 
 ```
 observer writes → inbox/decisions/<proposal>.md
                           ↓
-          Bryan reviews in org-viewer (Decisions view)
+          User reviews in org-viewer (Decisions view)
                           ↓
           Approve ❯ button → Swarm agent builds it
                           ↓
