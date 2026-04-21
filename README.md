@@ -69,7 +69,7 @@ That's it. The agent will guide you through the rest.
 
 A native workspace bundled in this repo. No installation, no configuration — double-click and it runs.
 
-![Swarm View](screenshots/org-viewer-swarm.png)
+![Graph View](screenshots/org-viewer-graph.png)
 
 **Views** (keyboard shortcuts `1`–`0`):
 
@@ -88,7 +88,7 @@ A native workspace bundled in this repo. No installation, no configuration — d
 
 **Swarm view** runs multiple agent sessions side-by-side in resizable, draggable tiles. Each tile is an independent terminal running any configured agent. Useful for parallel work — one agent writing code while another reviews, or a dedicated distiller agent capturing knowledge as you work.
 
-![Graph View](screenshots/org-viewer-graph.png)
+![Swarm View](screenshots/org-viewer-swarm.png)
 
 **Other features:**
 - Full-text search across your entire org (`/` or `Ctrl+K`)
