@@ -2,7 +2,7 @@
 
 A native viewer for your claude-org documents. Double-click to open - no configuration needed.
 
-**GitHub**: https://github.com/vincitamore/org-viewer
+**Source:** [org-viewer-dev/](org-viewer-dev/)
 
 ![Dashboard](screenshots/org-viewer-dashboard.png)
 
@@ -237,6 +237,6 @@ taskkill /F /PID <pid>
 
 ## Related
 
-- [org-viewer GitHub](https://github.com/vincitamore/org-viewer) - Source code and releases
+- [org-viewer-dev/](org-viewer-dev/) - Source code
 - [Tailscale Documentation](https://tailscale.com/kb/) - Network setup help
 - [[CLAUDE]] - System documentation and living index

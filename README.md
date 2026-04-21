@@ -76,7 +76,7 @@ A native document browser bundled in this repo. No installation, no configuratio
 - Reminders view with status filtering
 - Theme cycling with `t`
 
-[Full documentation](ORG-VIEWER.md) | [Source](https://github.com/vincitamore/org-viewer)
+[Full documentation](ORG-VIEWER.md) | [Source](org-viewer-dev/)
 
 ### Maintenance Hook
 

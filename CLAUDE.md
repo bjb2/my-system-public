@@ -192,7 +192,7 @@ A native document browser bundled with this system. Run `org-viewer.exe` from th
 
 **Remote access:** Install [Tailscale](https://tailscale.com/download) to browse from your phone or other devices.
 
-**Full docs:** [ORG-VIEWER.md](ORG-VIEWER.md) | **Source:** [GitHub](https://github.com/vincitamore/org-viewer)
+**Full docs:** [ORG-VIEWER.md](ORG-VIEWER.md) | **Source:** [org-viewer-dev/](org-viewer-dev/)
 
 ### Obsidian (Alternative)
 

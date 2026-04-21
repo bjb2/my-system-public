@@ -165,7 +165,7 @@ A native document browser bundled with this system. Run `org-viewer.exe` from th
 
 **Remote access:** Install [Tailscale](https://tailscale.com/download) to access from other devices.
 
-**Customize:** Source on [GitHub](https://github.com/vincitamore/org-viewer) if you want to change the aesthetics and rebuild.
+**Customize:** Source in [org-viewer-dev/](../org-viewer-dev/) if you want to change the aesthetics and rebuild.
 
 Full documentation: **[ORG-VIEWER.md](../ORG-VIEWER.md)**
 
